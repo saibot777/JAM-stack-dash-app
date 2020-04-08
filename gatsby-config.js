@@ -6,8 +6,8 @@ module.exports = {
   plugins: [],
 };
 
-exports.onCreatePage = async ({ page, boundActionCreators }) => {
-  const { createPage } = boundActionCreators;
+exports.onCreatePage = async ({ page, actions }) => {
+  const { createPage } = actions;
 
   if (page.path.match(/^\/dashboard/)) {
     page.matchPath = "/dashboard/*";
