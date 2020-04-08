@@ -4,13 +4,20 @@
   "description": "",
   "main": "gatsby-config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gatsby build",
+    "develop": "gatsby develop"
   },
   "author": "Stefan Trajkovic",
   "license": "ISC",
   "dependencies": {
+    "@reach/dialog": "^0.3.0",
+    "@reach/tabs": "^0.3.0",
+    "@reach/visually-hidden": "^0.3.0",
     "gatsby": "^2.20.13",
+    "gatsby-plugin-compile-es6-packages": "^2.1.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-netlify-identity": "^0.2.3",
+    "react-netlify-identity-widget": "^0.2.7"
   }
 }
