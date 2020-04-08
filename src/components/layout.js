@@ -6,7 +6,7 @@ import { Link } from "gatsby";
 import "./layout.css";
 
 const Layout = ({ children }) => (
-  <IdentityContextProvider url="https://modest-beaver-16b926.netlify.com/">
+  <IdentityContextProvider url="https://cranky-davinci-1a32a2.netlify.com/">
     <header>
       <Link to="/">JAMstack App</Link>
     </header>
