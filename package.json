@@ -13,7 +13,7 @@
     "@reach/dialog": "^0.3.0",
     "@reach/tabs": "^0.3.0",
     "@reach/visually-hidden": "^0.3.0",
-    "gatsby": "^2.20.13",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-compile-es6-packages": "^2.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
